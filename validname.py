@@ -29,10 +29,8 @@ class Solution:
         # return: bool
             
         # TODO: Write code below to return a bool with the solution to the prompt
-        if len(set(input)) == len(input):
-            return True
-        else:
-            return False
+        return len(set(input)) == len(input)
+            
 
 def main():
     string1 = input()
